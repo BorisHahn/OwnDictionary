@@ -1,12 +1,12 @@
 ﻿namespace OwnDictionary;
 
-public class OwnDictionary
+public class OtusDictionary
 {
     private int initialCapacity = 32;
     private int size;
     private Entry[] entries;
 
-    public OwnDictionary()
+    public OtusDictionary()
     {
         size = 0;
         entries = new Entry[initialCapacity];
